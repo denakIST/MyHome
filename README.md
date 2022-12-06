@@ -1,12 +1,12 @@
 # MyHome
 
-# My Projects:
-# PacMan Factory
+## My Projects:
+### PacMan Factory
 <img src="./projectImgs/PacMan.png" class="card-img-top" alt="...">
 
-# Eyes
+### Eyes
 <img src="./projectImgs/EyeMovement.png" class="card-img-top" alt="...">
 
-# Bus Tracker
+### Bus Tracker
 <img src="./projectImgs/BusTracker.png" class="card-img-top" alt="...">
 
