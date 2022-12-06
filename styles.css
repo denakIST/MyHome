@@ -1,0 +1,96 @@
+body {
+    margin: 20px;
+    padding: 20px;
+}
+
+h5 {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+p {
+    font-size: small;
+
+    color: black;
+}
+
+.container-fluid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-content: center;
+    gap: 10px;
+    padding: 10px
+}
+
+.projects-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    gap: 10px;
+}
+
+.bio {
+    border-style: solid;
+    border-color: lightgray;
+
+
+}
+
+.visual {
+    border-style: solid;
+    border-color: lightgray;
+}
+
+.row {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card-img-top{
+    padding: 5%;
+}
+
+
+.eyes {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.eye {
+    width: 240px;
+    height: 120px;
+    background: #fff;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ball {
+    width: 80px;
+    height: 80px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+#map {
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    width: 80%;
+}
+
+.map-overlay {
+    position: absolute;
+    left:auto;
+    
+}
